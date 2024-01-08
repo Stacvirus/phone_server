@@ -1,0 +1,10 @@
+delete http://localhost:3005/api/persons/5
+###
+POST http://localhost:3005/api/persons HTTP/1.1
+Content-Type: application/json
+
+{ 
+    "id": 5,
+    "name": "Stac Viruss", 
+    "number": "680-52-85-61"
+}
